@@ -39,7 +39,7 @@ The `e` value has to be a value that is 1 < e < λ(n). λ(n) is  (p - 1)(q - 1) 
 
 ## Running
 
-I ran this in python3 using the following command formats:
+Both of the files read in from the standard in, out, and error streams. I ran this in python3 using the following command formats:
 
 1. ```python3 rsa_encyption.py < tests/encryption_test_1.input > tests/encryption_test_1.output  2> tests/encryption_test_1_log.txt```
 
