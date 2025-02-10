@@ -18,7 +18,7 @@ The `e` value has to be a value that is 1 < e < λ(n). λ(n) is  (p - 1)(q - 1) 
 3. Find the λ(n) value
     - λ(n) = (p - 1)(q - 1)
 
-4. Find `d` with the reverse mod of e and phi to be saved for the private key when decrypting is necessary
+4. Find `d` with the reverse mod of e and λ(n) to be saved for the private key when decrypting is necessary
 
 5. Take the original message (c) and encrypt it
     - (c ^ e) % n 
@@ -32,7 +32,7 @@ The `e` value has to be a value that is 1 < e < λ(n). λ(n) is  (p - 1)(q - 1) 
 3. Find the λ(n) value
     - λ(n) = (p - 1)(q - 1)
 
-4. Find `d` with the reverse mod of e and phi
+4. Find `d` with the reverse mod of e and λ(n)
 
 5. Decrypt using the original message (c)
     - ( c ^ d ) % n
