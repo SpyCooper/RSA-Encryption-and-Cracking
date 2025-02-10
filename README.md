@@ -41,6 +41,6 @@ The `e` value has to be a value that is 1 < e < λ(n). λ(n) is  (p - 1)(q - 1) 
 
 I ran this in python3 using the following command formats:
 
-```python3 rsa_encyption.py < tests/encryption_test_1.input > tests/encryption_test_1.output  2> tests/encryption_test_1_log.txt```
+1. ```python3 rsa_encyption.py < tests/encryption_test_1.input > tests/encryption_test_1.output  2> tests/encryption_test_1_log.txt```
 
-```python3 rsa_cracking.py < tests/decryption_test_1.input > tests/decryption_test_1.output 2> tests/decryption__test_1_log.txt```
+2. ```python3 rsa_cracking.py < tests/decryption_test_1.input > tests/decryption_test_1.output 2> tests/decryption__test_1_log.txt```
