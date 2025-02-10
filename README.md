@@ -13,28 +13,28 @@ The `e` value has to be a value that is 1 < e < λ(n). λ(n) is  (p - 1)(q - 1) 
 
 1. The program reads in a `e`, `n`, and text to be encrypted from the standard input
 
-2. The the first two prime numbers that multiply to the n value to use as the p and q values.
+2. The the first two prime numbers that multiply to the `n` value to use as the `p` and `q` values.
 
-3. Find the λ(n) value
+3. Find the `λ(n)` value
     - λ(n) = (p - 1)(q - 1)
 
-4. Find `d` with the reverse mod of e and λ(n) to be saved for the private key when decrypting is necessary
+4. Find `d` with the reverse mod of `e` and `λ(n)` to be saved for the private key when decrypting is necessary
 
-5. Take the original message (c) and encrypt it
+5. Take the original message `c` and encrypt it
     - (c ^ e) % n 
 
 ## Explanation of RSA Cracking
 
 1. The program reads in a `e`, `n`, and text to be encrypted from the standard input
 
-2. The the first two prime numbers that multiply to the n value to use as the p and q values.
+2. The the first two prime numbers that multiply to the `n` value to use as the `p` and `q` values.
 
-3. Find the λ(n) value
+3. Find the `λ(n)` value
     - λ(n) = (p - 1)(q - 1)
 
-4. Find `d` with the reverse mod of e and λ(n)
+4. Find `d` with the reverse mod of `e` and `λ(n)`
 
-5. Decrypt using the original message (c)
+5. Decrypt using the original message `c`
     - ( c ^ d ) % n
 
 ## Running
